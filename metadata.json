@@ -5,6 +5,7 @@
   "settings-schema": "org.gnome.shell.extensions.tablet-rect",
   "uuid": "tablet-rect@lanesun.anlbrain.com",
   "shell-version": ["47", "48", "49"],
+  "url": "https://github.com/LaneSun/tablet-rect",
   "donations": {
     "kofi": "lanesun45182"
   }
