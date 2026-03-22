@@ -1,0 +1,176 @@
+# Chinese (Simplified) translation for tablet-rect
+# Copyright (C) 2026
+# This file is distributed under the same license as the tablet-rect package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tablet-rect\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-22\n"
+"PO-Revision-Date: 2026-03-22\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: extension.js
+msgid "Refresh from OTD"
+msgstr "从 OTD 刷新区域"
+
+#: extension.js
+msgid "Show Mode"
+msgstr "显示模式"
+
+#: extension.js
+msgid "Never"
+msgstr "从不"
+
+#: extension.js
+msgid "Always"
+msgstr "总是"
+
+#: extension.js
+msgid "On Focus"
+msgstr "聚焦时"
+
+#: prefs.js
+msgid "Settings"
+msgstr "设置"
+
+#: prefs.js
+msgid "Actions"
+msgstr "操作"
+
+#: prefs.js
+msgid "Refresh mapped area from OpenTabletDriver config"
+msgstr "从 OpenTabletDriver 配置刷新映射区域"
+
+#: prefs.js
+msgid "Refresh Area"
+msgstr "刷新区域"
+
+#: prefs.js
+msgid "Re-read OpenTabletDriver config file"
+msgstr "重新读取 OpenTabletDriver 配置文件"
+
+#: prefs.js
+msgid "Refresh"
+msgstr "刷新"
+
+#: prefs.js
+msgid "Visibility"
+msgstr "可见性"
+
+#: prefs.js
+msgid "Control when the rectangle overlay is shown"
+msgstr "控制矩形覆盖层的显示时机"
+
+#: prefs.js
+msgid "When to display the mapped area rectangle"
+msgstr "何时显示映射区域矩形"
+
+#: prefs.js
+msgid "Fade Duration"
+msgstr "淡入淡出时长"
+
+#: prefs.js
+msgid "Animation duration in milliseconds"
+msgstr "动画持续时间（毫秒）"
+
+#: prefs.js
+msgid "Focus Window Classes"
+msgstr "聚焦窗口类"
+
+#: prefs.js
+msgid "WM_CLASS values that trigger display in \"On Focus\" mode (use `xprop WM_CLASS` to find)"
+msgstr "触发「聚焦时」模式显示的 WM_CLASS 值（可用 xprop WM_CLASS 查看）"
+
+#: prefs.js
+msgid "WM_CLASS"
+msgstr "WM_CLASS"
+
+#: prefs.js
+msgid "Add WM_CLASS"
+msgstr "添加 WM_CLASS"
+
+#: prefs.js
+msgid "Mapped Area"
+msgstr "映射区域"
+
+#: prefs.js
+msgid "OTD display mapping parameters (X/Y are center coordinates)"
+msgstr "OTD 屏幕映射参数（X/Y 为中心坐标）"
+
+#: prefs.js
+msgid "Width (W)"
+msgstr "宽度 (W)"
+
+#: prefs.js
+msgid "Height (H)"
+msgstr "高度 (H)"
+
+#: prefs.js
+msgid "Center X"
+msgstr "中心 X"
+
+#: prefs.js
+msgid "Center Y"
+msgstr "中心 Y"
+
+#: prefs.js
+msgid "Appearance"
+msgstr "外观"
+
+#: prefs.js
+msgid "Configure the rectangle appearance"
+msgstr "配置矩形框的外观"
+
+#: prefs.js
+msgid "Border Width"
+msgstr "边框宽度"
+
+#: prefs.js
+msgid "Thickness of the border in pixels"
+msgstr "矩形边框的粗细（像素）"
+
+#: prefs.js
+msgid "Border Color"
+msgstr "边框颜色"
+
+#: prefs.js
+msgid "Border Opacity"
+msgstr "边框不透明度"
+
+#: prefs.js
+msgid "Border Radius"
+msgstr "圆角半径"
+
+#: prefs.js
+msgid "Corner radius in pixels"
+msgstr "矩形圆角的大小（像素）"
+
+#: prefs.js
+msgid "Fill Color"
+msgstr "填充颜色"
+
+#: prefs.js
+msgid "Fill Opacity"
+msgstr "填充不透明度"
+
+#: prefs.js
+msgid "Advanced"
+msgstr "高级"
+
+#: prefs.js
+msgid "OTD Config Path"
+msgstr "OTD 配置文件路径"
+
+#: prefs.js
+msgid "Reset to Defaults"
+msgstr "恢复默认设置"
+
+#: prefs.js
+msgid "Reset"
+msgstr "重置"

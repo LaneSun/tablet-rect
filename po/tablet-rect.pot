@@ -1,0 +1,176 @@
+# Tablet Rect GNOME Shell Extension
+# Copyright (C) 2026
+# This file is distributed under the same license as the tablet-rect package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: tablet-rect\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-22\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: extension.js
+msgid "Refresh from OTD"
+msgstr ""
+
+#: extension.js
+msgid "Show Mode"
+msgstr ""
+
+#: extension.js
+msgid "Never"
+msgstr ""
+
+#: extension.js
+msgid "Always"
+msgstr ""
+
+#: extension.js
+msgid "On Focus"
+msgstr ""
+
+#: prefs.js
+msgid "Settings"
+msgstr ""
+
+#: prefs.js
+msgid "Actions"
+msgstr ""
+
+#: prefs.js
+msgid "Refresh mapped area from OpenTabletDriver config"
+msgstr ""
+
+#: prefs.js
+msgid "Refresh Area"
+msgstr ""
+
+#: prefs.js
+msgid "Re-read OpenTabletDriver config file"
+msgstr ""
+
+#: prefs.js
+msgid "Refresh"
+msgstr ""
+
+#: prefs.js
+msgid "Visibility"
+msgstr ""
+
+#: prefs.js
+msgid "Control when the rectangle overlay is shown"
+msgstr ""
+
+#: prefs.js
+msgid "When to display the mapped area rectangle"
+msgstr ""
+
+#: prefs.js
+msgid "Fade Duration"
+msgstr ""
+
+#: prefs.js
+msgid "Animation duration in milliseconds"
+msgstr ""
+
+#: prefs.js
+msgid "Focus Window Classes"
+msgstr ""
+
+#: prefs.js
+msgid "WM_CLASS values that trigger display in \"On Focus\" mode (use `xprop WM_CLASS` to find)"
+msgstr ""
+
+#: prefs.js
+msgid "WM_CLASS"
+msgstr ""
+
+#: prefs.js
+msgid "Add WM_CLASS"
+msgstr ""
+
+#: prefs.js
+msgid "Mapped Area"
+msgstr ""
+
+#: prefs.js
+msgid "OTD display mapping parameters (X/Y are center coordinates)"
+msgstr ""
+
+#: prefs.js
+msgid "Width (W)"
+msgstr ""
+
+#: prefs.js
+msgid "Height (H)"
+msgstr ""
+
+#: prefs.js
+msgid "Center X"
+msgstr ""
+
+#: prefs.js
+msgid "Center Y"
+msgstr ""
+
+#: prefs.js
+msgid "Appearance"
+msgstr ""
+
+#: prefs.js
+msgid "Configure the rectangle appearance"
+msgstr ""
+
+#: prefs.js
+msgid "Border Width"
+msgstr ""
+
+#: prefs.js
+msgid "Thickness of the border in pixels"
+msgstr ""
+
+#: prefs.js
+msgid "Border Color"
+msgstr ""
+
+#: prefs.js
+msgid "Border Opacity"
+msgstr ""
+
+#: prefs.js
+msgid "Border Radius"
+msgstr ""
+
+#: prefs.js
+msgid "Corner radius in pixels"
+msgstr ""
+
+#: prefs.js
+msgid "Fill Color"
+msgstr ""
+
+#: prefs.js
+msgid "Fill Opacity"
+msgstr ""
+
+#: prefs.js
+msgid "Advanced"
+msgstr ""
+
+#: prefs.js
+msgid "OTD Config Path"
+msgstr ""
+
+#: prefs.js
+msgid "Reset to Defaults"
+msgstr ""
+
+#: prefs.js
+msgid "Reset"
+msgstr ""

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schemalist>
+  <enum id="org.gnome.shell.extensions.tablet-rect.show-mode">
+    <value nick="never" value="0" />
+    <value nick="always" value="1" />
+    <value nick="focus" value="2" />
+  </enum>
+
+  <schema
+        id="org.gnome.shell.extensions.tablet-rect"
+        path="/org/gnome/shell/extensions/tablet-rect/"
+    >
+    <key name="border-width" type="i">
+      <default>4</default>
+      <summary>Border Width</summary>
+      <description>Thickness of the rectangle border</description>
+      <range min="1" max="10" />
+    </key>
+
+    <key name="border-color" type="ad">
+      <default>[1.0, 1.0, 1.0]</default>
+      <summary>Border Color</summary>
+      <description>Color of the rectangle border as RGB values</description>
+    </key>
+
+    <key name="fill-color" type="ad">
+      <default>[1.0, 1.0, 1.0]</default>
+      <summary>Fill Color</summary>
+      <description>Fill color of the rectangle as RGB values</description>
+    </key>
+
+    <key name="border-alpha" type="d">
+      <default>0.05</default>
+      <summary>Border Transparency</summary>
+      <description>Opacity of the rectangle border</description>
+      <range min="0.0" max="1.0" />
+    </key>
+
+    <key name="fill-alpha" type="d">
+      <default>0.0</default>
+      <summary>Fill Transparency</summary>
+      <description>Opacity of the rectangle fill</description>
+      <range min="0.0" max="1.0" />
+    </key>
+
+    <key name="show-mode" enum="org.gnome.shell.extensions.tablet-rect.show-mode">
+      <default>"always"</default>
+      <summary>Show Mode</summary>
+      <description>When to show the rectangle: never, always, or when a matching window is focused</description>
+    </key>
+
+    <key name="focus-wm-classes" type="as">
+      <default>[]</default>
+      <summary>Focus WM Classes</summary>
+      <description>List of WM_CLASS values that trigger the rectangle in focus mode</description>
+    </key>
+
+    <key name="fade-duration" type="i">
+      <default>200</default>
+      <summary>Fade Duration</summary>
+      <description>Duration of fade in/out animation in milliseconds</description>
+      <range min="0" max="2000" />
+    </key>
+
+    <key name="config-path" type="s">
+      <default>""</default>
+      <summary>Config Path</summary>
+      <description>Custom path to OpenTabletDriver settings.json (leave empty for default)</description>
+    </key>
+
+    <key name="display-width" type="d">
+      <default>0</default>
+      <summary>Display Width</summary>
+      <description>Mapped display area width (from OTD)</description>
+    </key>
+
+    <key name="display-height" type="d">
+      <default>0</default>
+      <summary>Display Height</summary>
+      <description>Mapped display area height (from OTD)</description>
+    </key>
+
+    <key name="display-x" type="d">
+      <default>0</default>
+      <summary>Display X</summary>
+      <description>Mapped display area center X (from OTD)</description>
+    </key>
+
+    <key name="display-y" type="d">
+      <default>0</default>
+      <summary>Display Y</summary>
+      <description>Mapped display area center Y (from OTD)</description>
+    </key>
+
+    <key name="border-radius" type="i">
+      <default>20</default>
+      <summary>Border Radius</summary>
+      <description>Corner radius of the rounded rectangle</description>
+      <range min="0" max="100" />
+    </key>
+
+    <key name="refresh-trigger" type="i">
+      <default>0</default>
+      <summary>Refresh Trigger</summary>
+      <description>Increment this value to trigger a config reload</description>
+      <range min="0" max="2147483647" />
+    </key>
+  </schema>
+</schemalist>

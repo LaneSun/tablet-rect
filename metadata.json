@@ -1,0 +1,11 @@
+{
+  "name": "Tablet Rect",
+  "description": "Draw a semi-transparent rectangle on screen to indicate the OpenTabletDriver mapped area",
+  "gettext-domain": "tablet-rect",
+  "settings-schema": "org.gnome.shell.extensions.tablet-rect",
+  "uuid": "tablet-rect@lanesun.anlbrain.com",
+  "shell-version": ["47", "48", "49"],
+  "donations": {
+    "kofi": "lanesun45182"
+  }
+}
